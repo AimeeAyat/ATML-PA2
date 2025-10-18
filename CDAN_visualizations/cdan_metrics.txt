@@ -1,0 +1,36 @@
+============================================================
+CDAN PERFORMANCE METRICS
+============================================================
+
+Configuration:
+  Source Domain: art_painting
+  Target Domain: photo
+  Use Entropy (CDAN+E): True
+  Randomized Multilinear: True
+
+Overall Accuracy:
+  Source: 80.86%
+  Target: 66.65%
+
+Target Domain F1 Scores:
+  Macro F1: 0.6103
+  Weighted F1: 0.6306
+
+Rare Class Analysis:
+  Rarest Classes: ['giraffe', 'guitar', 'dog']
+  Average Rare F1: 0.6336
+  Average Common F1: 0.5928
+  Performance Gap: -0.0408
+
+Per-Class F1 Scores:
+  dog: 0.3985 (RARE)
+  elephant: 0.5952
+  giraffe: 0.7884 (RARE)
+  guitar: 0.7138 (RARE)
+  horse: 0.2092
+  house: 0.9023
+  person: 0.6644
+
+============================================================
+NEGATIVE TRANSFER ASSESSMENT
+============================================================
